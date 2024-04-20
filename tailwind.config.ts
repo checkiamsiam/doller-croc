@@ -20,6 +20,9 @@ const config: Config = {
         sans: ["var(--font-kardia)", "sans-serif"],
         kameron: ["var(--font-kameron)", "sans-serif"],
       },
+      boxShadow: {
+        primaryShadow: "3px 4px 0px 0px #000000",
+      },
     },
   },
   plugins: [],
