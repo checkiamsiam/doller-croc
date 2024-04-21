@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="bg-primary">
       <div className="bg-[url('/images/footer/Vector.png')] 2xl:bg-contain bg-no-repeat bg-left-bottom min-h-[820px] custom-h-footer  flex items-end">
         <div className="container px-5 mx-auto">
           <div className="grid lg:grid-cols-2">

@@ -7,10 +7,6 @@
   --color-secondary: #d9fa06;
 }
 
-body {
-  background-color: var(--color-primary);
-}
-
 .sip-animation {
   animation-name: sip;
   animation-duration: 3s;
@@ -39,4 +35,3 @@ body {
     min-height: 1000px !important ;
   }
 }
-

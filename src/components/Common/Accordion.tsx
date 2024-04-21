@@ -1,21 +1,25 @@
-"use client"
+"use client";
 import { useState } from "react";
 
-const Accordion = ({que}:{que:string}) => {
+const Accordion = ({ que }: { que: string }) => {
   const [open, setOpen] = useState(false);
   return (
     <div>
       <div onClick={() => setOpen(!open)} className="py-10 grid grid-cols-12 cursor-pointer">
         <div className="col-span-10">
           <h6 className="md:text-4xl  text-white font-kardia">{que}</h6>
-          <p className={`md:text-2xl text-[#ffffffcc] mt-4 ${open ? "h-fit  opacity-100" : "h-0 hidden opacity-0"}`}>
+          <p
+            className={`md:text-2xl text-[#ffffffcc] mt-4 transition-all duration-500 overflow-hidden ${
+              open ? "translate-y-0 h-fit opacity-100 visible" : "-translate-y-full h-0 opacity-0 invisible"
+            }`}
+          >
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of
             using Lorem Ipsum
           </p>
         </div>
         <div className="col-span-2 flex justify-end">
           <button
-            className={`md:w-12 w-8 md:h-12 h-8  border-2 border-black rounded-full flex justify-center items-center ${
+            className={`md:w-12 w-8 md:h-12 h-8  border-2 border-black rounded-full flex justify-center items-center transition-all duration-500 ${
               open ? "bg-secondary" : "bg-white"
             }`}
           >
