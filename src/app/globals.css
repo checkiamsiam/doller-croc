@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-primary: #60a534;
+  --color-secondary: #d9fa06;
+}
+
+body {
+  background-color: var(--color-primary);
+}
+
+.sip-animation {
+  animation-name: sip;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes sip {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(0deg); 
+  }
+  60% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+@media (min-width: 1900px) {
+  .custom-h-footer {
+    min-height: 1000px !important ;
+  }
+}
+

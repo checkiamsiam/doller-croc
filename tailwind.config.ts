@@ -10,10 +10,10 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#60A534",
+          DEFAULT: "var(--color-primary)",
         },
         secondary: {
-          DEFAULT: "#D9FA06",
+          DEFAULT: "var(--color-secondary)",
         },
       },
       fontFamily: {
