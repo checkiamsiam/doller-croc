@@ -20,7 +20,7 @@ const partnersData = [
 const PartnerBuyNTokenomics = () => {
   return (
     <div className="bg-primary -mt-5">
-      <div className="bg-[url('/images/partnerAndBuy/bg.png')] bg-cover bg-bottom bg-no-repeat pb-96">
+      <div className="bg-[url('/images/partnerAndBuy/bg.png')] bg-cover bg-bottom bg-no-repeat py-96">
         <Tokenomics />
         <div>
           <h2 className={` text-black text-center md:text-[96px] text-[40px] font-kardia uppercase `}>Partners</h2>
