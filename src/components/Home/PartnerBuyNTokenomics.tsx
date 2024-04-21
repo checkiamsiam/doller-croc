@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
+import Tokenomics from "./Tokenomics";
 
 const partnersData = [
   "/images/partnerAndBuy/mc-5.png",
@@ -16,10 +17,11 @@ const partnersData = [
   "/images/partnerAndBuy/mc-1.png",
 ];
 
-const PartnerAndBuy = () => {
+const PartnerBuyNTokenomics = () => {
   return (
-    <div className="bg-primary">
+    <div className="bg-primary -mt-5">
       <div className="bg-[url('/images/partnerAndBuy/bg.png')] bg-cover bg-bottom bg-no-repeat pb-96">
+        <Tokenomics />
         <div>
           <h2 className={` text-black text-center md:text-[96px] text-[40px] font-kardia uppercase `}>Partners</h2>
           <div className="py-20 flex flex-col gap-5">
@@ -97,4 +99,4 @@ const PartnerAndBuy = () => {
   );
 };
 
-export default PartnerAndBuy;
+export default PartnerBuyNTokenomics;
