@@ -67,7 +67,7 @@ const About = () => {
 
         {/* Bottom */}
         <div className="mt-8 relative flex flex-col xl:flex-row items-center gap-8 xl:gap-40">
-          <div className="">
+          <div className="max-lg:px-20">
             <Image
               src="/images/about/about_croc_bottom.png"
               alt="croc"

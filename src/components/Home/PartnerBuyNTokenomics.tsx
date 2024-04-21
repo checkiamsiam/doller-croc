@@ -41,7 +41,7 @@ const PartnerBuyNTokenomics = () => {
             </Marquee>
           </div>
 
-          <div className="container px-5 mx-auto">
+          <div className="container px-5 mx-auto" id="how-to-buy">
             <div className="flex flex-wrap justify-center gap-5">
               {/* card 1 */}
               <div className="md:w-[440px] md:h-[361px] w-[330px] h-[271px] bg-[url('/images/partnerAndBuy/step-card-bg-1.png')] bg-no-repeat bg-cover bg-center p-5">

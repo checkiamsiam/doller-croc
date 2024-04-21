@@ -74,3 +74,39 @@ html {
     transform: rotate(-10deg);
   }
 }
+
+/* ---------- Tokenomics Cards ---------- */
+/* .tokenomics_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+
+.tokenomics_card:nth-child(1) {
+  transform: rotate(5deg);
+  z-index: 50;
+}
+.tokenomics_card:nth-child(2) {
+  transform: rotate(7deg) translate(70px, -70px);
+  z-index: 40;
+}
+
+.tokenomics_card:nth-child(3) {
+  transform: rotate(9deg) translate(150px, -150px);
+  z-index: 30;
+}
+
+.tokenomics_card:nth-child(4) {
+  transform: rotate(-7deg) translate(-100px, -130px);
+  z-index: 20;
+}
+
+.tokenomics_card:nth-child(5) {
+  transform: rotate(-5deg) translate(-50px, -200px);
+  z-index: 10;
+}
+
+.tokenomics_card.active {
+  z-index: 99;
+}
