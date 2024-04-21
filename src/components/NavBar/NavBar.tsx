@@ -18,7 +18,7 @@ const navLinks = [
 
 const NavBar = () => {
   return (
-    <div className="absolute top-6 md:top-8 left-1/2 -translate-x-1/2 w-full z-50 px-2">
+    <div className="absolute top-6 md:top-8 left-1/2 -translate-x-1/2 w-full z-50 px-2 font-kardia">
       <nav className="max-w-6xl mx-auto border-2 border-black rounded-full px-5 py-2 bg-secondary shadow-primaryShadow">
         <div className="flex items-center justify-between gap-4">
           {/* Links */}

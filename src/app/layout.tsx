@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { Kameron } from "next/font/google";
-import "./globals.css";
 import localFont from "next/font/local";
+import "./globals.css";
 
-const kameron = Kameron({
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin"],
+const kameron = localFont({
+  src: "../font/Kameron-Regular.ttf",
   variable: "--font-kameron",
 });
 
@@ -27,9 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${kameron.className} ${kardia.variable} font-sans`}>
-        {children}
-      </body>
+      <body className={` ${kardia.variable} ${kameron.className}`}>{children}</body>
     </html>
   );
 }
