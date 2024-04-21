@@ -38,3 +38,39 @@ html {
     min-height: 1000px !important ;
   }
 }
+
+.about-top-animation {
+  animation: about_top 2s infinite linear;
+  transform-origin: 80% 80%;
+}
+
+@keyframes about_top {
+  0%,
+  25%,
+  75%,
+  100% {
+    transform: rotate(-10deg);
+    animation-delay: 0s;
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+.about-bottom-animation {
+  animation: about_bottom 2s infinite linear;
+  transform-origin: 20% 0%;
+}
+
+@keyframes about_bottom {
+  0%,
+  25%,
+  75%,
+  100% {
+    transform: rotate(10deg);
+    animation-delay: 0s;
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+}
