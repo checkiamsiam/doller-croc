@@ -8,7 +8,6 @@ const Questions = () => {
 
         <div className="md:mt-10 mt-5">
           <hr />
-
           <div className="">
             <Accordion que="Lorem Ipsum is simply dummy text" />
             <Accordion que="Lorem Ipsum is simply" />
