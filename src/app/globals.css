@@ -7,6 +7,10 @@
   --color-secondary: #d9fa06;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .sip-animation {
   animation-name: sip;
   animation-duration: 3s;
@@ -19,7 +23,7 @@
     transform: rotate(0deg);
   }
   20% {
-    transform: rotate(0deg); 
+    transform: rotate(0deg);
   }
   60% {
     transform: rotate(-20deg);
@@ -28,7 +32,6 @@
     transform: rotate(0deg);
   }
 }
-
 
 @media (min-width: 1900px) {
   .custom-h-footer {

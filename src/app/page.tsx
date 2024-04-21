@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer/Footer";
+import About from "@/components/Home/About";
 import Banner from "@/components/Home/Banner";
 import PartnerAndBuy from "@/components/Home/PartnerAndBuy";
 import Questions from "@/components/Home/Questions";
@@ -9,7 +10,8 @@ export default function Home() {
     <div className="relative">
       <NavBar />
       <Banner />
-      <PartnerAndBuy/>
+      <About />
+      <PartnerAndBuy />
       <Questions />
       <Footer />
     </div>
