@@ -84,29 +84,37 @@ html {
 } */
 
 .tokenomics_card:nth-child(1) {
+  transition: all 0.5s linear;
   transform: rotate(5deg);
+  margin-top: 50px;
   z-index: 50;
 }
 .tokenomics_card:nth-child(2) {
+  transition: all 0.5s linear;
   transform: rotate(7deg) translate(70px, -70px);
   z-index: 40;
 }
 
 .tokenomics_card:nth-child(3) {
+  transition: all 0.5s linear;;
   transform: rotate(9deg) translate(150px, -150px);
   z-index: 30;
 }
 
 .tokenomics_card:nth-child(4) {
+  transition: all 0.5s linear;
   transform: rotate(-7deg) translate(-100px, -130px);
   z-index: 20;
 }
 
 .tokenomics_card:nth-child(5) {
+  transition: all 0.5s linear;
   transform: rotate(-5deg) translate(-50px, -200px);
   z-index: 10;
 }
 
 .tokenomics_card.active {
+  transition: all 0.5s linear;
+  margin-bottom: 50px;
   z-index: 99;
 }

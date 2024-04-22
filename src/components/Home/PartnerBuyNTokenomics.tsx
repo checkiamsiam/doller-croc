@@ -24,11 +24,11 @@ const PartnerBuyNTokenomics = () => {
         <Tokenomics />
         <div>
           <h2 className={` text-black text-center md:text-[96px] text-[40px] font-kardia uppercase `}>Partners</h2>
-          <div className="py-20 flex flex-col gap-5">
+          <div className="pb-20 flex flex-col gap-5">
             <Marquee autoFill speed={200}>
               {partnersData.map((data, index) => (
                 <div key={index} className="px-4">
-                  <Image src={data} width={255} height={255} alt="partner" />
+                  <Image src={data} width={215} height={215} alt="partner" />
                 </div>
               ))}
             </Marquee>
